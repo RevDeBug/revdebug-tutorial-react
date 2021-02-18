@@ -1,4 +1,4 @@
-# REVDEBUG REACT TUTORIAL
+## REVDEBUG REACT TUTORIAL
 
 Simple React example, click the "CRASH" button to crash. No I don't know why the top level unhandled exception is triggered twice, it happens in the browser and is recorded that way accurately.
 
