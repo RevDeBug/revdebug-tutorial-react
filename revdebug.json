@@ -1,0 +1,10 @@
+{
+    "solution":    "revdebug-tutorial-react",
+    "application": "React Calculator Example",
+    "type":        "module",
+    "mode":        "live",
+    "sourceMap":   true,
+    "path":        "src",
+    "files":       "**/*.js",
+    "index":       "public/index.html"
+}
