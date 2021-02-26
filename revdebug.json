@@ -1,6 +1,6 @@
 {
-    "solution":    "revdebug-tutorial-react",
     "application": "React Calculator Example",
+    "screen":      true,
     "type":        "module",
     "mode":        "live",
     "sourceMap":   true,
