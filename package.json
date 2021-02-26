@@ -2,7 +2,6 @@
   "name": "revdebug-tutorial-react",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
     "chai": "^4.2.0",
     "gh-pages": "^2.0.1",
@@ -10,7 +9,7 @@
     "react-scripts": "^3.0.1"
   },
   "dependencies": {
-    "@revdebug/revdebug": "^1.0.0b989",
+    "@revdebug/revdebug": "^1.0.0b1000",
     "big.js": "^5.2.2",
     "github-fork-ribbon-css": "^0.2.1",
     "react": "^16.8.6",
