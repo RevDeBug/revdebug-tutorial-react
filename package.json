@@ -9,7 +9,7 @@
     "react-scripts": "^3.0.1"
   },
   "dependencies": {
-    "@revdebug/revdebug": "^1.0.0b1000",
+    "@revdebug/revdebug": "*",
     "big.js": "^5.2.2",
     "github-fork-ribbon-css": "^0.2.1",
     "react": "^16.8.6",
