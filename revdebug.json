@@ -4,6 +4,7 @@
     "type":        "module",
     "mode":        "live",
     "sourceMap":   true,
+    // "excludeInst": "import",
     "path":        "src",
     "files":       "**/*.js",
     "index":       "public/index.html"
