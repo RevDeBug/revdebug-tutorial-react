@@ -2,9 +2,9 @@
     "application": "React Calculator Example",
     "screen":      true,
     "type":        "module",
-    "mode":        "live",
+    "mode":        "onevent",
     "sourceMap":   true,
-    // "excludeInst": "import",
+    "excludeInst": "import",
     "path":        "src",
     "files":       "**/*.js",
     "index":       "public/index.html"
