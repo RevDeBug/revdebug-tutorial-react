@@ -1,11 +1,19 @@
 {
-    "application": "React Calculator Example",
+    "host":        "revdebug.server.address",
+    "apm":         true, 
     "screen":      true,
-    "type":        "module",
-    "mode":        "onevent",
+    "screenTime":  10,
+    "version":     "1.0.0", 
+    "solution":    "React Project", 
+    "application": "React Calculator Example", 
+    "type":        "module", 
+    "mode":        "onevent", 
     "sourceMap":   true,
+    "path":        "src", 
+    "files":       "**/*.js", 
+    "index":       "public/index.html", 
     "excludeInst": "import",
-    "path":        "src",
-    "files":       "**/*.js",
-    "index":       "public/index.html"
+    "target":      "web", 
+    "entrySpan":   "single", 
+    "useFMP":      true
 }
