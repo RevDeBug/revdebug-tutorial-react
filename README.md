@@ -1,6 +1,7 @@
 ## REVDEBUG REACT TUTORIAL
 
-Simple React example, click the "CRASH" button to crash. No I don't know why the top level unhandled exception is triggered twice, it happens in the browser and is recorded that way accurately.
+Simple React example, click the "CRASH" button to crash and see recordings in Flight Recorder or click "FETCH CASE" button to see recordings in rdb trace.
+No I don't know why the top level unhandled exception is triggered twice, it happens in the browser and is recorded that way accurately.
 
 Configure RevDeBug repository:
 
