@@ -19,14 +19,19 @@ export default class ButtonPanel extends React.Component {
         <div>
           <Button name="AC" clickHandler={this.handleClick} />
           <Button name="+/-" clickHandler={this.handleClick} />
-          <Button name="CRASH" clickHandler={() => { throw new Error("Oh noooo!!!"); }} />
-          <Button name="÷" clickHandler={this.handleClick} orange />
+          <Button name="÷" clickHandler={this.handleClick} />
+          <Button name="CRASH" clickHandler={() => { throw new Error("Oh noooo!!!"); }} orange />
         </div>
         <div>
           <Button name="7" clickHandler={this.handleClick} />
           <Button name="8" clickHandler={this.handleClick} />
           <Button name="9" clickHandler={this.handleClick} />
-          <Button name="x" clickHandler={this.handleClick} orange />
+          <Button name="FETCH CASE" clickHandler={() => {
+            fetch("http://abcdefg/404").then(
+              (r) => console.log('fetch resp:', r, r.text().then((r) => console.log(r))),
+              (e) => console.dir(e, { depth: null })
+            );
+          }} orange />
         </div>
         <div>
           <Button name="4" clickHandler={this.handleClick} />
